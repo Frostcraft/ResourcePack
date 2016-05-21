@@ -1,12 +1,21 @@
-Resource Pack for mc.frostcraft.com
+FrostCraft Resource Pack
+Version Change Log
 --------------------------------------------
 
 1.0 Initial version
+
 1.1 Changed glass border color
+
 1.2 Added enchanted item glint, changed redstone block
+
 1.3 Animated blaze rod
+
 1.4 Added dispenser front animation, removed packed ice
+
 1.5 Changed to 32x32 for most things. Added bag textures. Removed snow texture.
+
 1.6 Changed blaze rod texture. Added snowball texture.
+
 1.7 Changed bag textures, Added lang file, removed transparency from blaze rod, added gold hoe texture.
+
 1.8 Updated to 1.9 and added elytra texture.

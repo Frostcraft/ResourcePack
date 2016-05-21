@@ -1,0 +1,81 @@
+{
+    "__comment": "FrostCraft Mana Forge Hammer",
+    "textures": {
+        "0": "items/gold_axe_handle",
+        "1": "items/gold_axe_head",
+		"2": "items/gold_axe_bottom"		
+    },
+    "elements": [
+        {
+            "name": "Handle",
+            "from": [ 7.0, 1.0, 7.0 ], 
+            "to": [ 9.0, 18.0, 9.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "east": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "south": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "west": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "up": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+                "down": { "texture": "#0", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+            }
+        },
+        {
+            "name": "Head",
+            "from": [ 6.0, 12.0, 4.0 ], 
+            "to": [ 10.0, 17.0, 13.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 9.0, 4.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 4.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 9.0, 4.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 9.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 4.0, 9.0 ] }
+            }
+        },
+        {
+            "name": "Head-Side",
+            "from": [ 5.0, 13.0, 4.0 ], 
+            "to": [ 6.0, 16.0, 13.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 9.0, 2.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 9.0, 2.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 9.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 9.0 ] }
+            }
+        },
+        {
+            "name": "Head-Side-2",
+            "from": [ 10.0, 13.0, 4.0 ], 
+            "to": [ 11.0, 16.0, 13.0 ], 
+            "faces": {
+                "north": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "east": { "texture": "#1", "uv": [ 0.0, 0.0, 9.0, 2.0 ] },
+                "south": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 2.0 ] },
+                "west": { "texture": "#1", "uv": [ 0.0, 0.0, 9.0, 2.0 ] },
+                "up": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 9.0 ] },
+                "down": { "texture": "#1", "uv": [ 0.0, 0.0, 1.0, 9.0 ] }
+            }
+        },
+        {
+            "name": "Bottom",
+            "from": [ 7.0, 0.0, 7.0 ], 
+            "to": [ 9.0, 1.0, 9.0 ], 
+            "shade": false,
+            "faces": {
+                "north": { "texture": "#2", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "east": { "texture": "#2", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "south": { "texture": "#2", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "west": { "texture": "#2", "uv": [ 0.0, 0.0, 2.0, 16.0 ] },
+                "up": { "texture": "#2", "uv": [ 0.0, 0.0, 2.0, 2.0 ] },
+                "down": { "texture": "#2", "uv": [ 0.0, 0.0, 2.0, 2.0 ] }
+            }
+        }
+    ],
+	"display" : {
+		"gui": {"rotation": [ -15, -75, -15], "translation": [ 0, -1, 0 ], "scale": [ 0.9, 0.9, 0.9 ]}
+	}
+
+}

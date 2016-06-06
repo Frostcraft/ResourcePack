@@ -1,9 +1,9 @@
 {
     "__comment": "FrostCraft Mana Forge Hammer",
     "textures": {
-        "0": "items/gold_axe_handle",
-        "1": "items/gold_axe_head",
-		"2": "items/gold_axe_bottom"		
+        "0": "items/hammer_handle",
+        "1": "items/hammer_head",
+		"2": "items/hammer_bottom"		
     },
     "elements": [
         {

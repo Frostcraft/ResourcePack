@@ -1,8 +1,8 @@
 {
     "__comment": "FrostCraft Magic Wand",
     "textures": {
-        "particle": "blocks/blocks/blocks/blocks/gold_axe_bottom",
-        "0": "items/gold_axe_handle",
+        "particle": "blocks/blocks/blocks/blocks/tool_bottom",
+        "0": "items/tool_handle",
         "1": "items/wand-1",
         "2": "items/wand-2"
     },

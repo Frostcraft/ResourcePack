@@ -1,0 +1,9 @@
+{
+    "__comment": "2D Wand Template",
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "wands/wand_old",
+		"particle": "wands/particle_default",
+		"0": "wands/color_palet"
+    }
+}

@@ -1,0 +1,12 @@
+{
+	"parent": "item/handheld",
+	"textures": {
+		"layer0": "items/blaze_rod"
+	},
+	"overrides": [
+		{ "predicate": { "damaged": 1, "damage": 0.03125}, "model": "wand/1_wand_defaultedited-model"},
+		{ "predicate": { "damaged": 1, "damage": 0.0625}, "model": "wand/2_wand_simple-model"},
+		{ "predicate": { "damaged": 1, "damage": 0.09375}, "model": "wand/_wand_template"},
+		{ "predicate": { "damaged": 0, "damage": 1}, "model": "wand/1_wand_defaultedited-model"}
+	]
+}

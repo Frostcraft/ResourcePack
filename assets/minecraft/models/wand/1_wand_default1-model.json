@@ -1,0 +1,189 @@
+{
+	"__comment": "Frostcraft Magic Wand Remade",
+	"textures": {
+		"particle": "wands/particle_default",
+		"0": "wands/color_palet"
+	},
+	"elements": [
+		{
+			"name": "BottomStick",
+			"from": [ 7.5, 0.0, 7.5 ], 
+			"to": [ 8.5, 2.0, 8.5 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 2.0, 9.0, 3.0, 11.0 ] },
+				"east": { "texture": "#0", "uv": [ 2.0, 9.0, 1.0, 11.0 ] },
+				"south": { "texture": "#0", "uv": [ 3.0, 9.0, 2.0, 11.0 ] },
+				"west": { "texture": "#0", "uv": [ 1.0, 9.0, 2.0, 11.0 ] },
+				"down": { "texture": "#0", "uv": [ 3.0, 10.0, 4.0, 11.0 ] }
+			}
+		},
+		{
+			"name": "Stick",
+			"from": [ 7.5, 2.0, 7.5 ], 
+			"to": [ 8.5, 16.0, 8.5 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 2.0, 0.0, 3.0, 8.0 ] },
+				"east": { "texture": "#0", "uv": [ 3.99, 0.0, 3.0, 8.0 ] },
+				"south": { "texture": "#0", "uv": [ 2.0, 0.0, 3.0, 8.0 ] },
+				"west": { "texture": "#0", "uv": [ 3.99, 0.0, 3.0, 8.0 ] }
+			}
+		},
+		{
+			"name": "Main Head",
+			"from": [ 6.5, 16.0, 6.5 ],
+			"to": [ 9.5, 18.0, 9.5 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 10.0, 8.0, 7.0, 6.0 ] },
+				"east": { "texture": "#0", "uv": [ 9.99, 6.0, 7.0, 4.0 ] },
+				"south": { "texture": "#0", "uv": [ 5.0, 6.0, 8.0, 8.0 ] },
+				"west": { "texture": "#0", "uv": [ 6.0, 6.0, 10.0, 8.0 ] },
+				"up": { "texture": "#0", "uv": [ 10.0, 4.0, 7.0, 7.0 ] },
+				"down": { "texture": "#0", "uv": [ 4.0, 0.0, 7.0, 3.0 ] }
+			}
+		},
+		{
+			"name": "Sub Bottom Head",
+			"from": [ 7.5, 15.0, 6.5 ], 
+			"to": [ 8.5, 16.0, 9.5 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 5.0, 8.0, 4.0, 7.0 ] },
+				"east": { "texture": "#0", "uv": [ 8.0, 5.0, 5.0, 6.0 ] },
+				"south": { "texture": "#0", "uv": [ 4.0, 5.0, 5.0, 6.0 ] },
+				"west": { "texture": "#0", "uv": [ 10.0, 5.0, 7.0, 6.0 ] },
+				"down": { "texture": "#0", "uv": [ 6.0, 3.0, 7.0, 6.0 ] }
+			}
+		},
+		{
+			"name": "Bottom Head",
+			"from": [ 6.5, 15.0, 7.5 ], 
+			"to": [ 9.5, 16.0, 8.5 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 7.0, 6.0, 10.0, 5.0 ] },
+				"east": { "texture": "#0", "uv": [ 7.0, 3.0, 6.0, 4.0 ] },
+				"south": { "texture": "#0", "uv": [ 10.0, 5.0, 7.0, 6.0 ] },
+				"west": { "texture": "#0", "uv": [ 6.0, 3.0, 7.0, 4.0 ] },
+				"down": { "texture": "#0", "uv": [ 5.0, 4.0, 8.0, 5.0 ] }
+			}
+		},
+		{
+			"name": "Sub Top Head",
+			"from": [ 6.5, 18.0, 7.5 ], 
+			"to": [ 9.5, 19.0, 8.5 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 7.0, 6.0, 10.0, 5.0 ] },
+				"east": { "texture": "#0", "uv": [ 7.0, 5.0, 6.0, 6.0 ] },
+				"south": { "texture": "#0", "uv": [ 10.0, 5.0, 7.0, 6.0 ] },
+				"west": { "texture": "#0", "uv": [ 4.0, 4.0, 5.0, 5.0 ] },
+				"up": { "texture": "#0", "uv": [ 6.0, 1.0, 9.0, 2.0 ] }
+			}
+		},
+		{
+			"name": "Top Head",
+			"from": [ 7.5, 18.0, 6.5 ], 
+			"to": [ 8.5, 19.0, 9.5 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 5.0, 8.0, 4.0, 7.0 ] },
+				"east": { "texture": "#0", "uv": [ 8.0, 5.0, 5.0, 6.0 ] },
+				"south": { "texture": "#0", "uv": [ 4.0, 5.0, 5.0, 6.0 ] },
+				"west": { "texture": "#0", "uv": [ 10.0, 5.0, 7.0, 6.0 ] },
+				"up": { "texture": "#0", "uv": [ 7.0, 4.0, 6.0, 7.0 ] }
+			}
+		},
+		{
+			"name": "Ice Top",
+			"from": [ 7.5, 19.0, 7.5 ], 
+			"to": [ 8.5, 20.0, 8.5 ], 
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 1.0 ] },
+				"east": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 1.0 ] },
+				"south": { "texture": "#0", "uv": [ 10.0, 0.0, 11.0, 1.0 ] },
+				"west": { "texture": "#0", "uv": [ 14.0, 3.0, 15.0, 4.0 ] },
+				"up": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Ice North East",
+			"from": [ 9.5, 17.0, 7.5 ], 
+			"to": [ 10.5, 19.0, 8.5 ], 
+			"rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0 },
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 2.0 ] },
+				"east": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 2.0 ] },
+				"south": { "texture": "#0", "uv": [ 10.0, 0.0, 11.0, 2.0 ] },
+				"west": { "texture": "#0", "uv": [ 14.0, 3.0, 15.0, 5.0 ] },
+				"up": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Ice South East",
+			"from": [ 9.5, 17.0, 7.5 ], 
+			"to": [ 10.5, 19.0, 8.5 ], 
+			"rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -45.0 },
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 2.0 ] },
+				"east": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 2.0 ] },
+				"south": { "texture": "#0", "uv": [ 10.0, 0.0, 11.0, 2.0 ] },
+				"west": { "texture": "#0", "uv": [ 14.0, 3.0, 15.0, 5.0 ] },
+				"up": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Ice North West",
+			"from": [ 5.5, 17.0, 7.5 ], 
+			"to": [ 6.5, 19.0, 8.5 ], 
+			"rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": -45.0 },
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 2.0 ] },
+				"east": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 2.0 ] },
+				"south": { "texture": "#0", "uv": [ 10.0, 0.0, 11.0, 2.0 ] },
+				"west": { "texture": "#0", "uv": [ 14.0, 3.0, 15.0, 5.0 ] },
+				"up": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 1.0 ] }
+			}
+		},
+		{
+			"name": "Ice South West",
+			"from": [ 5.5, 17.0, 7.5 ], 
+			"to": [ 6.5, 19.0, 8.5 ], 
+			"rotation": { "origin": [ 8.0, 8.0, 8.0 ], "axis": "y", "angle": 45.0 },
+			"faces": {
+				"north": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 2.0 ] },
+				"east": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 2.0 ] },
+				"south": { "texture": "#0", "uv": [ 10.0, 0.0, 11.0, 2.0 ] },
+				"west": { "texture": "#0", "uv": [ 14.0, 3.0, 15.0, 5.0 ] },
+				"up": { "texture": "#0", "uv": [ 11.0, 0.0, 12.0, 1.0 ] }
+			}
+		}
+	],
+		"display": {
+		"thirdperson_righthand": {
+			"rotation": [ 0, -90, 0 ],
+			"translation": [ 0, 1, 1 ],
+			"scale": [ 1, 1, 1 ]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [ 0, 90, 0 ],
+			"translation": [ 0, 1, 1 ],
+			"scale": [ 1, 1, 1 ]
+		},
+		"gui": {
+			"rotation": [ 25, 25, -40 ],
+			"translation": [ -1.4, -2.1, 0],
+			"scale": [ 1, 0.8, 1 ]
+		},
+		"head": {
+			"rotation": [ 0, 180, 0 ],
+			"translation": [ 0, 10, 0],
+			"scale":[ 1.5, 1.5, 1.5]
+		},
+		"ground": {
+			"rotation": [ 80, 0, -90 ],
+			"translation": [ 0, 0, 0],
+			"scale":[ 0.65, 0.65, 0.65 ]
+		},
+		"fixed": {
+			"rotation": [ 0, 0, 0 ],
+			"translation": [ 0, -2.5, 0],
+			"scale":[ 0.75, 0.75, 0.75 ]
+		}
+	}
+}

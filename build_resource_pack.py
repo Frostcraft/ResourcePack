@@ -12,14 +12,11 @@ def setup_logging():
                                       datefmt='%Y-%m-%d %H:%M:%S')    
     log_stream_handler = logging.StreamHandler(sys.stdout)
     log_stream_handler.setFormatter(log_formatter)
-    
     log_file_handler = logging.FileHandler("build.log")
     log_file_handler.setFormatter(log_formatter)
-    
     log.addHandler(log_stream_handler)
     log.addHandler(log_file_handler)
     
-    return log
 
 def create_temporary_copy(path):
     temp_dir = tempfile.gettempdir()

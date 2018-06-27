@@ -4,39 +4,52 @@ FrostCraft Resource Pack
 
 This is a custom resource pack for mc.frostcraft.com. Find more information about FrostCraft on http://frostcraft.com
 
-## Notes on Item Models
-This applies to files in \models\item\
-
-\_gold\_hoe is to be used if we ever switch to using custom models for wands.
-Many of the wands need to have the uv's switch up slightly to avoid small texture issues.
-4.0 > 3.99 and such.
-
-## Notes on Wand Models
-This applies to files in models\wand\
-
-* Only Wand files should be in this folder.
-
-* A Wand files name format is
- * dmgvaluenumber\_wand\_name-type
- * E.G. 5\_wand\_mushroom-model.json or \_wand\_mushroom-setup.json
-
-### Calculating Damage Value
-To get the override damage value for the model:
-
-1. Divide by 1/32 (or the number of damage values the item has)
-2. Take that number and then multiply it by what slot you want.
-3. Eg. 1/32 = 0.03125, 0.03125 * 5 = 0.15625
-
-The \_wand\_display file is a template, for what should be used for the display tags at the bottom of the model files.
+## Notes on File Names
+Files that should be deleted when built should start with '__'.
+Whether the file is temporary, unused, or otherwise.
 
 
+# Releases
+> 1.0 Initial version
 
-## Todo / Ideas
----------------------------------
-###Additional Wands
-* Magic Wand | Black with white Top 
-* Mushroom Wand | Rough handle with red white  mushroom top
-* Candy Cane Wand | Candy cane
-* Cane Wand | Old wooden cane 
-* Magic Stick | Rough Stick with 1-2 Leafs at the end
+> 1.1 Changed glass border color
 
+> 1.2 Added enchanted item glint, changed redstone block
+
+> 1.3 Animated blaze rod
+
+> 1.4 Added dispenser front animation, removed packed ice
+
+> 1.5 Changed to 32x32 for most things. Added bag textures. Removed snow texture.
+
+> 1.6 Changed blaze rod texture. Added snowball texture.
+
+> 1.7 Changed bag textures, Added lang file, removed transparency from blaze rod, added gold hoe texture.
+
+> 1.8 Updated to 1.9 and added elytra texture.
+
+> 1.9 Updated to 1.10/1.11 and Removed/Changed unnecessary textures.
+
+> 2.0/2.1 :
+> 
+> 	Changes how wands work, more modular system and wands redone. Added Todo for wand models and more.
+>   
+> 	Updated most wands, redid some wands, wands wands wands.
+>   
+> 	Removed Glass Textures, they did not fit.
+>   
+> 	Moved redstone_blocks back to 16px to keep consistancy, and changed redstone_block textures slightly.
+>   
+> 	Created new scripts / tools for future use. 
+>   
+> 	Mana-Forge-Top textures, where changed using such tools to be more consistant with 16x16 minecraft. [ Needs work ]
+>   
+> 	Changed the portal animation slightly to loop a little better.
+>   
+> 	Fixed the enchanted glint.
+>   
+> 	Water Texture was changed to be a slightly more light blue.
+>   
+> 	Magic Bag Texture was completely redone. [ Needs FC logo on it. ]
+>   
+> 	Colormaps where redone to add 

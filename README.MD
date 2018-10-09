@@ -32,11 +32,19 @@ Whether the file is temporary, unused, or otherwise.
 
 > 2.0
 >   Updated to 1.13
+
 > 	Removed Glass Textures
+
 > 	Updated magic bag texture
+
 > 	Updated restone block texture and made them 16x16
+
 > 	Updated Mana-Forge-Top textures to be more consistant with 16x16 minecraft. [ Needs work ]
+
 >   Removed portal animation
+
 > 	Removed enchanted glint.
+
 > 	Added colormap
+
 > 	Added resource pack build script

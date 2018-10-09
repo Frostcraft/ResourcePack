@@ -30,26 +30,13 @@ Whether the file is temporary, unused, or otherwise.
 
 > 1.9 Updated to 1.10/1.11 and Removed/Changed unnecessary textures.
 
-> 2.0/2.1 :
-> 
-> 	Changes how wands work, more modular system and wands redone. Added Todo for wand models and more.
->   
-> 	Updated most wands, redid some wands, wands wands wands.
->   
-> 	Removed Glass Textures, they did not fit.
->   
-> 	Moved redstone_blocks back to 16px to keep consistancy, and changed redstone_block textures slightly.
->   
-> 	Created new scripts / tools for future use. 
->   
-> 	Mana-Forge-Top textures, where changed using such tools to be more consistant with 16x16 minecraft. [ Needs work ]
->   
-> 	Changed the portal animation slightly to loop a little better.
->   
-> 	Fixed the enchanted glint.
->   
-> 	Water Texture was changed to be a slightly more light blue.
->   
-> 	Magic Bag Texture was completely redone. [ Needs FC logo on it. ]
->   
-> 	Colormaps where redone to add 
+> 2.0
+>   Updated to 1.13
+> 	Removed Glass Textures
+> 	Updated magic bag texture
+> 	Updated restone block texture and made them 16x16
+> 	Updated Mana-Forge-Top textures to be more consistant with 16x16 minecraft. [ Needs work ]
+>   Removed portal animation
+> 	Removed enchanted glint.
+> 	Added colormap
+> 	Added resource pack build script
